@@ -13,7 +13,7 @@ echo $this->Thumbnail->render('teste.jpg', array(
         'path' => '',
         'width' => '100',
         'height' => '100',
-        'resizeOption' => 'portrait',
+        'resize' => 'portrait',
         'quality' => '100'
             ), array('id' => 'img-test', 'alt' => 'thumbnail test'));
 ```
